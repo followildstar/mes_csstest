@@ -199,3 +199,20 @@
 
 /* 루트 수정 해서 많이 바뀌면 개별 수정 */
 /* --sidebar-overlay-light: #1f2a46; */
+
+
+/* 버튼 스타일 */
+
+
+/* class가 비어있거나 없고, 내부도 비어있는 i 태그 숨김 */
+.p_btn i:empty,
+.p_btn i[class=""]:empty {
+    display: none;
+}
+
+.p_btn {
+     /* border-radius: 5px; */
+    border-radius: 3px;
+    /* line-height: 25px; */
+    line-height: 24px;
+}
