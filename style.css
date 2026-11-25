@@ -78,13 +78,17 @@
 }
 
 .side_nav .top_menu_item .icon{
+    /* width: 42px !important; */
     width: 34px !important;
+    /* height: 42px !important; */
     height: 34px !important;
-    margin-right: 7px !important;
+    /* 추가 */
+    margin-right: 7px !important; 
 }
 
 
 .side_nav .top_menu_item {
+    /* padding: 5px 12px !important; */
     padding: 5px 6px !important;
 }
 
@@ -97,6 +101,69 @@
 }
 
 .sidebar:not(.contract) .top_logo .logo {
+      /* height: 30px; */
     height: 27px;
+    /* 추가 */
     margin-top: 5px;
 }
+
+.userName {
+    /* font-weight: 700; */
+    font-weight: 600;
+}
+
+.userLogout {
+    /* font-weight: 400; */
+    font-weight: 300;
+    /* 추가 */
+    color: #ccc;
+}
+
+.divide {
+  /* background: var(--sidebar-overlay-light,#fff3); */
+    background: #7b7b7b;
+}
+
+
+
+.sidebar .lnbBottom {
+    /* color: #fff; */
+    color: #aaa;
+    /* column-gap: 8px; */
+    column-gap: 4px;
+}
+
+.sidebar .lnbBottom .helper_icon {
+  /* 추가 */
+    filter: brightness(1.4);
+}
+
+
+
+/* 사이드바 축소했을때  */
+.sidebar .top_logo .logo {
+    /* height: 24px; */
+      height: 20px;
+      /* 추가 */
+          margin-left: 7px;
+}
+
+.sidebar .user {
+/* 추가 */
+    margin-left: -5px;
+}
+
+.sidebar.contract .userActions {
+    gap: 6px;
+}
+
+.sidebar.contract .userDept, .sidebar.contract .divide {
+    display: block;
+}
+
+
+
+
+
+/* 루트 수정 해서 많이 바뀌면 개별 수정 */
+/* --sidebar-overlay-light: #1f2a46; */
