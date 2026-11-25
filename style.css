@@ -38,3 +38,43 @@
   scrollbar-color: #aaa;#fff;
 }
 
+
+.side_nav .top_menu_item:first-child .icon {
+    background-image: url(https://samyang.com/upload/editor/8f7072bbc50047a69f3bd6400b578e67.png) !important;
+    background-size: contain !important;
+}
+
+.side_nav .top_menu_item:nth-child(2) .icon {
+    background-image: url(https://samyang.com/upload/editor/b10c8b093ff54715be2c5a2c5637ae0a.png) !important;
+}
+
+.side_nav .top_menu_item:nth-child(3) .icon {
+    background-image: url(https://samyang.com/upload/editor/1433a984e27742329c27ba6aea240a33.png) !important;
+}
+
+.side_nav .top_menu_item:nth-child(4) .icon {
+    background-image: url(https://samyang.com/upload/editor/42c0ef39ad11457aabd70bce7f926ae9.png) !important;
+}
+
+.side_nav .top_menu_item:nth-child(5) .icon {
+    background-image: url(https://samyang.com/upload/editor/d912fc1d0cda400aa69932d16c3722bc.png) !important;
+}
+
+.side_nav .top_menu_item:nth-child(6) .icon {
+    background-image: url(https://samyang.com/upload/editor/e83c36728f1b48738680275f34dc7685.png) !important;
+}
+
+.side_nav .top_menu_item:nth-child(7) .icon {
+    background-image: url(https://samyang.com/upload/editor/c6df904d9087437ca5ab1f26403b75e5.png) !important;
+}
+
+.side_nav .top_menu_item:nth-child(8) .icon {
+    background-image: url(https://samyang.com/upload/editor/9e10d61c6d554454811883624198f9d4.png) !important;
+}
+
+.side_nav .top_menu_item .icon{
+     width: 34px !important;
+    height: 34px !important;
+    margin-right: 7px !important;
+}
+
