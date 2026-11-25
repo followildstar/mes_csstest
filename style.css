@@ -215,13 +215,17 @@
 .p_btn {
      /* border-radius: 5px; */
     border-radius: 3px;
-    /* line-height: 25px; */
-    line-height: 24px;
+    /* 추가-버튼내 수직가운데정렬 */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search_wrap .p_btn.search {
     /* border-radius: 5px; */
     border-radius: 3px;
-    /* line-height: 25px; */
-    line-height: 24px;
+     /* 추가-버튼내 수직가운데정렬 */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
