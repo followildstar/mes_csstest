@@ -39,6 +39,11 @@
 }
 
 
+
+/* LNB 수정  */
+
+
+/* 아이콘교체 */
 .side_nav .top_menu_item:first-child .icon {
     background-image: url(https://samyang.com/upload/editor/8f7072bbc50047a69f3bd6400b578e67.png) !important;
     background-size: contain !important;
@@ -73,8 +78,25 @@
 }
 
 .side_nav .top_menu_item .icon{
-     width: 34px !important;
+    width: 34px !important;
     height: 34px !important;
     margin-right: 7px !important;
 }
 
+
+.side_nav .top_menu_item {
+    padding: 5px 6px !important;
+}
+
+
+.menu_nm {
+    /* font-size: 13px; */
+    font-size: 14px;
+    /* font-weight: 700; */
+    font-weight: 600;
+}
+
+.sidebar:not(.contract) .top_logo .logo {
+    height: 27px;
+    margin-top: 5px;
+}
