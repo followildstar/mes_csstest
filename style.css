@@ -266,6 +266,12 @@ button[type="submit"][style*="rgb(0, 91, 170)"] {
     border-bottom: 1px solid #ddd;
 }
 
+
+.sub_item:has(.arrow) .label_wrap .arrow {
+    width: 17px;
+    padding-right: 3px;
+}
+
 .depth_list.fourth {
     background: #eff3f7 !important;
 }
@@ -325,4 +331,16 @@ font-size: 14px;
 /* 가독성을 위해 배경어두운 폰트 두께조정 300, 400 중 택1   */
 .p_btn.search, .p_btn.save, .p_btn.btn_save, .p_btn.primary, .p_btn[id*=save], .p_btn[value*=저장], .score_search_btns .p_btn.search, .score_search_btns .p_btn.save, .score_search_btns .p_btn.btn_save, .score_search_btns .p_btn.primary, .score_search_btns .p_btn[id*=save], .score_search_btns .p_btn[value*=저장], .button_item .p_btn.search, .button_item .p_btn.save, .button_item .p_btn.btn_save, .button_item .p_btn.primary, .button_item .p_btn[id*=save], .button_item .p_btn[value*=저장] {
     font-weight: 300 !important;
+}
+
+
+
+/* 메인 이미지 교체  */
+
+.mainRightWrap {
+    background-color: #f9f9f9;
+    background-image: url(https://samyang.com/upload/editor/dd3c83db4fdf4eee9722a6c85c22823b.png);
+    background-size: contain;
+    border-radius: 5px;
+    margin-left: 5px;
 }
