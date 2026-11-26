@@ -4,9 +4,11 @@
 /* * {
   scrollbar-width: thin;
   scrollbar-color: auto; 
+} 
+ */
+/* .ag-body-vertical-scroll-viewport {
+    left: 1px;
 } */
-
-
 
 
 /* 스크롤바 수정 */
@@ -23,12 +25,12 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius:3px;
-    background-color: #aaa!important ; /* 바 컬러 */ 
-    border: 1px solid #fff !important; /*추가 */ 
+    background-color: #aaa!important ;
+    border: 1px solid #fff !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #444e67!important ; /*  호버 컬러 */ 
+    background-color: #444e67!important ; 
 }
 
 
