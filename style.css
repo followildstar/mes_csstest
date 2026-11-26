@@ -1,41 +1,8 @@
-/* 공통 스크롤바 영역 설정 */
-::-webkit-scrollbar {
-  width: 10px;  /* 세로 스크롤바 너비 */
-  height: 10px; /* 가로 스크롤바 높이 */
-}
-
-/* 스크롤바 트랙 (배경) */
-::-webkit-scrollbar-track {
-  background-color: #fff; /* 테이블 헤더와 유사한 연한 쿨그레이 */
-  border-radius: 4px;
-}
-
-/* 스크롤바 핸들 (Thumb) */
-::-webkit-scrollbar-thumb {
-  background-color: #aaa;
-  border-radius: 9999px;     /* 완전한 캡슐(둥근) 형태 */
-  border: 2px solid #fff; /* 트랙과 같은 색의 패딩 효과를 주어 더 슬림하게 연출 */
-}
-
-/* 마우스 호버 시 핸들 강조 */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #9aa5b4; /* 한 톤 어두워지며 조작감 향상 */
-}
-
-/* 클릭(드래그) 중일 때 포인트 컬러 적용 */
-::-webkit-scrollbar-thumb:active {
-  background-color: #1d6ce0; /* 타이틀 좌측 블루 바(#1d6ce0)와 통일감 부여 */
-}
-
-/* 가로/세로 스크롤바가 만나는 우측 하단 모서리 */
-::-webkit-scrollbar-corner {
-  background-color: #fff;
-}
 
 /* Firefox 및 최신 표준 브라우저 대응 */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #aaa;#fff;
+  scrollbar-color: #aaa;
 }
 
 
@@ -228,4 +195,12 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+/* 팝업내 버튼 컬러 통일  */
+button[type="submit"][style*="rgb(0, 91, 170)"] {
+  background: #273458 !important;
+}
+
+.pop_close li.no-cursor{
+    width: 15px !important;
 }
