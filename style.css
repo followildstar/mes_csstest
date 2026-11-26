@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 2px;
+    border-radius:3px;
     background-color: #aaa!important ; /* 바 컬러 */ 
     border: 1px solid #fff !important; /*추가 */ 
 }
@@ -230,4 +230,97 @@ button[type="submit"][style*="rgb(0, 91, 170)"] {
 
 .pop_close li.no-cursor{
     width: 15px !important;
+}
+
+
+/* 펼침메뉴 */
+.menu_title{
+    /* font-size: 16px; */
+    font-size: 15px;
+    /* color:#333; */
+    color:#000;
+    /* font-weight:700; */
+    font-weight: 600; 
+}
+
+.arrow svg {
+
+    /* width: 20px!important;
+    height: 20px!important; */
+    width: 18px!important;
+    height: 18px!important;
+}
+
+.sub_item {
+    /* padding: var(--sidebar-sub-item-padding, 0px 0 0px 20px); */
+    padding: var(--sidebar-sub-item-padding, 0px 0 0px 15px);
+    /* 추가 */
+    letter-spacing: -0.2px;
+}
+
+
+.sub_item.expanded {
+    background-color: #e4edf4;
+    border-bottom: 1px solid #ddd;
+}
+
+.depth_list.fourth {
+    background: #eff3f7 !important;
+}
+
+.depth_list:has(.arrow) .sub_item_wrap {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.sub_item:has(.arrow) .label_wrap {
+    font-weight: 500 !important;
+    padding: 5px 0;
+    max-height: 30px !important;
+}
+
+
+.depth_list.fourth .sub_item {
+font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    justify-content: flex-start;
+    white-space: normal;
+    line-height: 16px;
+    padding: 7px 7px 7px 14px;
+    height: auto !important;
+    letter-spacing: -.5px;
+}
+.depth_list.fourth .sub_item:before {
+    content: "-";
+    padding-right: 5px;
+    opacity: 0.4;
+}
+.depth_list.fourth .sub_item:hover {
+    /* background:#e6e6e6; */
+    background: #e4edf4;
+    /* color:#000; */
+    color:#1976d2;
+}
+.depth_list:has(.arrow) .sub_item_wrap:last-child {
+    border-bottom: 0;
+}
+
+
+
+
+
+.react-datepicker__tab-loop{position: relative;}
+.react-datepicker-popper{
+    position: absolute !important;
+}
+
+
+
+
+
+
+
+/* 가독성을 위해 배경어두운 폰트 두께조정 300, 400 중 택1   */
+.p_btn.search, .p_btn.save, .p_btn.btn_save, .p_btn.primary, .p_btn[id*=save], .p_btn[value*=저장], .score_search_btns .p_btn.search, .score_search_btns .p_btn.save, .score_search_btns .p_btn.btn_save, .score_search_btns .p_btn.primary, .score_search_btns .p_btn[id*=save], .score_search_btns .p_btn[value*=저장], .button_item .p_btn.search, .button_item .p_btn.save, .button_item .p_btn.btn_save, .button_item .p_btn.primary, .button_item .p_btn[id*=save], .button_item .p_btn[value*=저장] {
+    font-weight: 300 !important;
 }
